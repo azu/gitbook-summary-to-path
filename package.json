@@ -1,0 +1,42 @@
+{
+  "name": "gitbook-summary-to-path",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/gitbook-summary-to-path.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/gitbook-summary-to-path",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/gitbook-summary-to-path/issues"
+  },
+  "version": "1.0.0",
+  "description": "gitbook SUMMARY.md to path list.",
+  "main": "lib/gitbook-summary-to-path.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "summary-to-path": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gitbook",
+    "cli"
+  ],
+  "dependencies": {
+    "gitbook-parsers": "^0.7.7"
+  },
+  "devDependencies": {
+    "espower-babel": "^3.3.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^1.0.0"
+  }
+}
