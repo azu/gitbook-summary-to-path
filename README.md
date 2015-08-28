@@ -1,6 +1,6 @@
 # gitbook-summary-to-path
 
-Parse [SUMMARY.md](https://github.com/GitbookIO/gitbook#book-format "SUMMARY.md") of Gitbook and print file path list.
+Parse [SUMMARY.md](https://github.com/GitbookIO/gitbook#book-format "SUMMARY.md") of GitBook and print file path list.
 
 ## Installation
 
