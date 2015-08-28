@@ -24,7 +24,7 @@ Example) Lint all files in SUMMARY.md with textlint.
 
 ```sh
 npm install -D textlint textlint-rule-no-todo gitbook-summary-to-path
-summary-to-path SUMMARY.md | xargs textlint --rule no-todo
+$(npm bin)/summary-to-path SUMMARY.md | xargs $(npm bin)/textlint --rule no-todo
 ```
 
 ## Tests
