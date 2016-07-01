@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/gitbook-summary-to-path/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "gitbook SUMMARY.md to path list.",
   "main": "lib/gitbook-summary-to-path.js",
   "files": [
