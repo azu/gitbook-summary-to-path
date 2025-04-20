@@ -1,10 +1,9 @@
 // LICENSE : MIT
-"use strict";
-
-import {getFilePathListAsync, getChapterListAsync} from '../';
-
-var fixtureDir = __dirname + "/fixtures";
-var assert = require("power-assert");
+import {getFilePathListAsync, getChapterListAsync} from '../lib/gitbook-summary-to-path.js';
+import assert from 'node:assert';
+import path from 'node:path';
+const __dirname = new URL('.', import.meta.url).pathname;
+const fixtureDir = path.join(__dirname, "fixtures");
 describe("gitbook-summary-to-path", () => {
     describe("#getFilePathListAsync", function () {
         it("should return array of file path", function () {
