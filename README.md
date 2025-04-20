@@ -11,9 +11,9 @@ Parse [SUMMARY.md](https://github.com/GitbookIO/gitbook#book-format "SUMMARY.md"
 ### Command Line
 
 ```sh
-$ summary-to-path SUMMARY.md
-/Users/azu/gitbook-summary-to-path/test/fixtures/README.md
-/Users/azu/gitbook-summary-to-path/test/fixtures/jQuery.md
+$ npx gitbook-summary-to-path SUMMARY.md
+/path/to/gitbook-summary-to-path/test/fixtures/README.md
+/path/to/gitbook-summary-to-path/test/fixtures/jQuery.md
 ```
 
 ### Use case
@@ -24,7 +24,7 @@ Example) Lint all files in SUMMARY.md with textlint.
 
 ```sh
 npm install -D textlint textlint-rule-no-todo gitbook-summary-to-path
-$(npm bin)/summary-to-path SUMMARY.md | xargs $(npm bin)/textlint --rule no-todo
+npx gitbook-summary-to-path SUMMARY.md | xargs npx textlint --rule no-todo
 ```
 
 ## Tests
