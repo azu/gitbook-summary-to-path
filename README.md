@@ -12,8 +12,8 @@ Parse [SUMMARY.md](https://github.com/GitbookIO/gitbook#book-format "SUMMARY.md"
 
 ```sh
 $ npx gitbook-summary-to-path SUMMARY.md
-/Users/azu/gitbook-summary-to-path/test/fixtures/README.md
-/Users/azu/gitbook-summary-to-path/test/fixtures/jQuery.md
+/path/to/gitbook-summary-to-path/test/fixtures/README.md
+/path/to/gitbook-summary-to-path/test/fixtures/jQuery.md
 ```
 
 ### Use case
